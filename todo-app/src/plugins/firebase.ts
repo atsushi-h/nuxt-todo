@@ -16,6 +16,7 @@ if (!firebase.apps.length) {
 
 export const authProviders = {
   Google: firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+  Email: firebase.auth.EmailAuthProvider.PROVIDER_ID,
 };
 
 export const auth = firebase.auth();

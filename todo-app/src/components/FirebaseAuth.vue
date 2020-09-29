@@ -16,7 +16,7 @@ export default Vue.extend({
         const ui = firebaseui.auth.AuthUI.getInstance() || new firebaseui.auth.AuthUI(auth);
 
         const config = {
-          signInOptions: [authProviders.Google],
+          signInOptions: [authProviders.Google, authProviders.Email],
           callbacks: {
             signInSuccessWithAuthResult: (authResult) => {
               window.location.href = '/';
