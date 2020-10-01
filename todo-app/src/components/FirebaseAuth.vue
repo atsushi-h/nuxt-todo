@@ -18,7 +18,7 @@ export default Vue.extend({
         const config = {
           signInOptions: [authProviders.Google, authProviders.Email],
           callbacks: {
-            signInSuccessWithAuthResult: (authResult) => {
+            signInSuccessWithAuthResult: (authResult: any) => {
               window.location.href = '/';
               return false;
             },
@@ -28,6 +28,8 @@ export default Vue.extend({
         };
 
         ui.start('#firebaseui-auth-container', config);
+      } else {
+        this.$router.push('/');
       }
     });
   },

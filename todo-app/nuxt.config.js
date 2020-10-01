@@ -67,6 +67,10 @@ export default {
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
 
+  router: {
+    middleware: 'auth',
+  },
+
   env: {
     API_KEY,
     AUTH_DOMAIN,

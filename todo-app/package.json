@@ -15,7 +15,8 @@
     "core-js": "^3.6.5",
     "firebase": "^7.21.1",
     "firebaseui": "^4.6.1",
-    "nuxt": "^2.14.5"
+    "nuxt": "^2.14.5",
+    "vuex-module-decorators": "^1.0.1"
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.5",

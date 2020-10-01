@@ -32,12 +32,13 @@
     "shims-vue.d.ts"
   ],
   "include": [
-    "components/**/*.ts",
-    "components/**/*.vue",
-    "layouts/**/*.ts",
-    "layouts/**/*.vue",
-    "pages/**/*.ts",
-    "pages/**/*.vue"
+    "src/components/**/*.ts",
+    "src/components/**/*.vue",
+    "src/layouts/**/*.ts",
+    "src/layouts/**/*.vue",
+    "src/pages/**/*.ts",
+    "src/pages/**/*.vue",
+    "src/store/**/*.ts"
   ],
   "exclude": [
     "node_modules",
